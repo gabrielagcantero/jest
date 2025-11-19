@@ -16,11 +16,13 @@ test ('object example', () => {
     expect (data).toEqual({first: 1, second: 2});
 });
 
+/*
 test ('object example2', () => {
     const data = {first: 1};
     data['second'] = 2;
     expect (data).toBe({first: 1, second: 2});
 });
+*/
 
 test('multiply 4*3 should not return 6', () => {
         expect(multiply(4, 3)).not.toBe(6);
