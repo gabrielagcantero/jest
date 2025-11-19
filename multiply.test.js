@@ -1,8 +1,12 @@
+// todos los tests del proyecto corren con "npm run test"
+// si se agrega el nombre del archivo corre solo ese archivo
+// en el JSON se puede agregar "test:watch" para que corra en modo watch
+
 const multiply = require('./multiply');
 
 //agrupo los tests positivos
 describe('test multiply positive scenarios', () => {
-    //un test simple. corre con npm run test
+    //un test simple. el test.only hace que corra solo este test
     test('multiply 2*3 should return 6', () => {
         expect(multiply(2, 3)).toBe(6);
     });
