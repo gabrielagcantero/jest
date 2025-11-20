@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`filter by id snapshot 1`] = `
+[
+  {
+    "id": 2,
+    "name": "Item Two",
+    "stock": 5,
+  },
+]
+`;
+
+exports[`filter by name snapshot 1`] = `
+[
+  {
+    "id": 2,
+    "name": "Item Two",
+    "stock": 5,
+  },
+  {
+    "id": 3,
+    "name": "Item Two",
+    "stock": 8,
+  },
+  {
+    "id": 5,
+    "name": "Item Two",
+    "stock": 15,
+  },
+]
+`;
